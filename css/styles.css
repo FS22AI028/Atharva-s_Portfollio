@@ -149,23 +149,16 @@ button[type="submit"]:hover {
     line-height: 1.5;
 }
 
-.social-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-}
-
 .social-icons img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 2px solid #fff;
     transition: transform 0.3s ease;
+}
+
+.social-icons a {
+    margin: 0 10px;
 }
 
 .social-icons img:hover {
