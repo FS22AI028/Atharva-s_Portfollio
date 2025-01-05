@@ -1,0 +1,236 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.active {
+    color: #ff6f61; /* Change the color for the active link */
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.section-content {
+    padding: 40px 0;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e95e51;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Styles for Home page */
+.hero {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; /* Increase padding for better spacing */
+}
+
+.hero h1 {
+    font-size: 36px; /* Increase font size for emphasis */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.hero p {
+    font-size: 18px; /* Increase font size for better readability */
+    margin-bottom: 40px; /* Add more margin for spacing */
+}
+
+/* Adjustments for the "Download CV" button */
+.download-cv {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.download-cv h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button-small {
+    padding: 10px 20px; /* Decrease padding */
+    font-size: 14px; /* Decrease font size */
+    border-radius: 5px;
+}
+
+/* Skills section */
+.skills {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.skill-category {
+    margin-bottom: 40px;
+}
+
+.skill-category h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill-category p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+.work-sample {
+    display: inline-block;
+    width: calc(45% - 20px); /* Adjust width to fit two samples in a row with some margin */
+    margin: 20px; /* Add margin between samples */
+    vertical-align: top; /* Align samples to the top of the container */
+}
