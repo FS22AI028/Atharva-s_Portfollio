@@ -228,6 +228,7 @@ button[type="submit"]:hover {
     color: #666;
     line-height: 1.5;
 }
+
 .work-sample {
     display: inline-block;
     width: calc(45% - 20px); /* Adjust width to fit two samples in a row with some margin */
