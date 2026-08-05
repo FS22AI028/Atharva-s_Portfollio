@@ -1,0 +1,47 @@
+Atharva Metkar
+B.E.- IT –Information Technology
+Ph:+988459466129
+Email:atharvametkar06@gmail.com
+Mumbai
+LinkedIn: www.linkedin.com/in/atharva-metkar-51aa98253
+Final-year Engineeringstudent with aDiploma inAI& ML seeking anentry-level AI/ML orSoftware Development role whereIcan apply hands-onexperience gained through
+academic andpersonal projects, leveragingskills inPython,MachineLearning,DeepLearning,SQL,DataAnalysis,andWebDevelopmenttodeliverinnovativetechnologysolutions.
+Machine Learning Python Deep Learning Data Analysis Web DevelopmentSIES Graduate School of Technology
+BE –Information Technology /Engineering- FullTime |Percentage: CGPA: 9.5/10Sep 2025- Present
+Government PolytechnicMumbai
+diploma|Director Of Technical Education |Percentage: 90.07%Sep 2022 -june 2025
+K,Narkhede Vidyalaya Bhusawal
+10th|MaharashtraStateBoard of Secondary andHigher SecondaryEducation |Percentage: 90.40%Mar2021 - Mar 2022CAREEROBJECTIVE
+EDUCATION
+PROJECTS
+1GesturaX: Gesture -Based Computer Control System
+TechStack: Python, OpenCV, MediaPipe, PyAutoGUI, PyQt5
+Developed areal-time gesture -based computer control system using Python, OpenCV, and MediaPipe to enable hands -free interaction through webcam -based
+hand tracking.
+Implemented gesture recognition for cursor movement, mouse clicks, scrolling, volume, brightness, and application switching using custom hand landmark
+detection algorithms.
+Designed aPyQt5 desktop interface with mini -player mode, theme switching, and responsive real -time gesture visualization to improve user experience.
+Achieved approximately 95% gesture detection accuracy with response time below 50 msunder normal lighting conditions.
+2PBNOF: Persona -Based Noise &Obfuscation Framework
+TechStack: JavaScript, Chrome Extension APIs, HTML, CSS,GitHub
+Developed aChrome browser extension that enhances online privacy by generating persona -based synthetic browsing activity to reduce behavioral tracking
+and user profiling.
+Implemented idle detection, automated tab management, and Chrome Storage APIs to trigger privacy protection with minimal impact on normal browsing.
+Designed amodular architecture featuring background service workers, persona management, behavioral obfuscation, and browser automation for efficient
+client-side execution.
+Builtalightweight extension with local -only data processing, improving user privacy while maintaining low CPU andmemory usage.
+KEY SKILLS
+ASSESSMENTS /CERTIFICATIONS
+Gender: Male Dateof Birth: 21-06-2007
+Known Languages: English, Marathi, Hindi CurrentAddress: Navi Mumbai
+Phone Number: 8459466129Email:atharvametkar06@gmail.comElements Of Data Science
+AWS TrainingNov 2022
+Python
+Infosys SpringboardNov 2022
+Data Science
+BoardinfinityNov 2023
+C programming
+Spoken tutorial IIT BombayMay 2025
+Deep Learning for Developers
+Infosys SpringboardJul 2026
+PERSONALDETAILS
