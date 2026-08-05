@@ -382,13 +382,11 @@ footer {
 .social-icons img {
   width: 30px;
   height: 30px;
-  filter: brightness(0) invert(1);
   transition: var(--transition);
 }
 
 .social-icons a:hover img {
   transform: scale(1.2);
-  filter: brightness(0) invert(0.5) sepia(1) saturate(5) hue-rotate(200deg);
 }
 
 footer p {
