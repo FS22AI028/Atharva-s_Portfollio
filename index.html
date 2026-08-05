@@ -17,13 +17,14 @@
     <header>
         <div class="container">
             <div class="logo-container">
-                <img src="images/atharva image.png" alt="Atharva Metkar Logo">
+                <img src="images/profile_photo.jpg" alt="Atharva Metkar Logo">
                 <h1>Atharva Metkar</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -50,12 +51,39 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>I am an Artificial Intelligence and Machine Learning Engineer based in Mumbai, India.</p>
+                    <p>I am an Artificial Intelligence and Machine Learning Engineer based in Mumbai, India, currently pursuing engineering in Information Technology.</p>
                     <p>With a passion for technology, I specialize in developing intelligent systems that learn from data, providing innovative solutions that drive impactful decisions.</p>
                     <a href="files/Atharva-Metkar-CV.pdf" class="button" target="_blank" style="margin-top: 20px;">Download CV</a>
                 </div>
                 <div class="about-image" style="text-align: center;">
-                    <img src="images/atharva image.png" alt="Atharva Metkar" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent-color); box-shadow: 0 0 30px var(--accent-glow);">
+                    <img src="images/profile_photo.jpg" alt="Atharva Metkar" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 4px solid var(--accent-color); box-shadow: 0 0 30px var(--accent-glow);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="hidden">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 style="font-size: 1.2rem; color: var(--accent-color);">Sep 2025 - Present</h3>
+                    <h4 style="font-size: 1.1rem; margin-bottom: 5px; color: var(--text-primary);">SIES Graduate School of Technology</h4>
+                    <p style="color: var(--text-primary); font-weight: 500;">BE – Information Technology</p>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">CGPA: 9.5/10</p>
+                </div>
+                <div class="skill-card">
+                    <h3 style="font-size: 1.2rem; color: var(--accent-color);">Sep 2022 - Jun 2025</h3>
+                    <h4 style="font-size: 1.1rem; margin-bottom: 5px; color: var(--text-primary);">Government Polytechnic Mumbai</h4>
+                    <p style="color: var(--text-primary); font-weight: 500;">Diploma in AI & ML</p>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Percentage: 90.07%</p>
+                </div>
+                <div class="skill-card">
+                    <h3 style="font-size: 1.2rem; color: var(--accent-color);">Mar 2021 - Mar 2022</h3>
+                    <h4 style="font-size: 1.1rem; margin-bottom: 5px; color: var(--text-primary);">K. Narkhede Vidyalaya Bhusawal</h4>
+                    <p style="color: var(--text-primary); font-weight: 500;">10th (Maharashtra State Board)</p>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Percentage: 90.40%</p>
                 </div>
             </div>
         </div>
@@ -112,7 +140,6 @@
                 <!-- NEW PROJECT: Digital Chaff Generator -->
                 <div class="work-card">
                     <div class="work-img-container">
-                        <!-- Placeholder background if no specific image exists -->
                         <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #1e293b, #3b82f6); display: flex; align-items: center; justify-content: center; font-size: 3rem;">🛡️</div>
                     </div>
                     <div class="work-info">
@@ -120,6 +147,34 @@
                         <p>A premium privacy-defense browser extension that fights fingerprinting by generating high-fidelity background browsing noise. Features a dual-engine phishing protection (Google Safe Browsing + XGBoost ML model with 98.86% accuracy).</p>
                         <div class="work-links">
                             <a href="https://github.com/rajghorpade28/DigitalChaffGenerator" target="_blank">View on GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW PROJECT: HR Promotion Prediction -->
+                <div class="work-card">
+                    <div class="work-img-container">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #1e293b, #8b5cf6); display: flex; align-items: center; justify-content: center; font-size: 3rem;">📈</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Predicting Employee Promotions</h3>
+                        <p>Machine learning project for Human Resource Management to predict employee promotions. Features extensive data collection, preprocessing, and model optimization.</p>
+                        <div class="work-links">
+                            <a href="https://github.com/FS22AI028/Human-Resource-Management-Predicting-Employee-Promotions-using-Machine-Learning" target="_blank">View on GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW PROJECT: Facial Emotion Food & Drinks -->
+                <div class="work-card">
+                    <div class="work-img-container">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #1e293b, #ef4444); display: flex; align-items: center; justify-content: center; font-size: 3rem;">🍔</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Emotion Food & Drinks Suggester</h3>
+                        <p>Suggests food and drinks based on real-time facial emotion recognition using a Convolutional Neural Network implemented with Keras and OpenCV.</p>
+                        <div class="work-links">
+                            <a href="https://github.com/FS22AI028/facial_emotion-food-drinks_suggester" target="_blank">View on GitHub →</a>
                         </div>
                     </div>
                 </div>
